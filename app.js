@@ -42,3 +42,4 @@ http.createServer(function (req, res, next) {
 }).on('error',function (err) {
     console.error(err);
 }).listen(3000);
+console.log('http://localhost:3000');
